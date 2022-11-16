@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_device_homes",
+  "info": {
+    "displayName": "home",
+    "icon": "home"
+  },
+  "options": {},
+  "attributes": {
+    "device": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "device_lists",
+  "info": {
+    "singularName": "device-list",
+    "pluralName": "device-lists",
+    "displayName": "device list"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}
