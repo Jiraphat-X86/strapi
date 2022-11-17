@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_board_esp8266s",
+  "info": {
+    "displayName": "esp8266",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "detail": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}

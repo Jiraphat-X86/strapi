@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings",
+  "info": {
+    "singularName": "setting",
+    "pluralName": "settings",
+    "displayName": "setting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "descripttion": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "hastag": {
+      "type": "string"
+    }
+  }
+}

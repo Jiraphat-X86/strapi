@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "device_groups",
+  "info": {
+    "singularName": "device-group",
+    "pluralName": "device-groups",
+    "displayName": "device group",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "device": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::device.device",
+      "inversedBy": "device_groups"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "overviews",
+  "info": {
+    "singularName": "overview",
+    "pluralName": "overviews",
+    "displayName": "overview",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "detail": {
+      "type": "string"
+    },
+    "device": {
+      "type": "integer"
+    },
+    "group": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "board.esp32"
+    },
+    "abouts": {
+      "type": "dynamiczone",
+      "components": [
+        "aboutss.abouts",
+        "aboutss.address"
+      ]
+    }
+  }
+}
