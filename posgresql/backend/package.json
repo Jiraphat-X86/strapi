@@ -10,6 +10,10 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
+    "@offset-dev/strapi-calendar": "^0.0.9",
+    "@strapi/plugin-documentation": "^4.5.1",
+    "@strapi/plugin-graphql": "^4.5.1",
     "@strapi/plugin-i18n": "4.5.0",
     "@strapi/plugin-users-permissions": "4.5.0",
     "@strapi/strapi": "4.5.0",
