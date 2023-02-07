@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "overview_pages",
+  "info": {
+    "singularName": "overview-page",
+    "pluralName": "overview-pages",
+    "displayName": "Overview page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

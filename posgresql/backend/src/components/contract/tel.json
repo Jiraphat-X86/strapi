@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_contract_tels",
+  "info": {
+    "displayName": "tel",
+    "icon": "phone-alt"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    }
+  }
+}
